@@ -37,6 +37,10 @@ apt install fonts-kacst
 
 ![Al-Atlal](Outputs/Al-Atlal.png)
 
+* A sample output for [Geber](https://en.wikipedia.org/wiki/Jabir_ibn_Hayyan) Alchemical text :
+
+![Jaber](Outputs/Jaber.png)
+
 
 ## Known issues
 
