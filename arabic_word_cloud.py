@@ -121,9 +121,9 @@ contour_color='#f6f2b8ff'
 
 
 '''
-generate_word_cloud('/home/hpl1906/Documents/Arabic_word_cloud/Texts/Al-Atlal.txt',
+generate_word_cloud('Arabic_word_cloud/Texts/Al-Atlal.txt',
                      '/usr/share/fonts/truetype/kacst/KacstPen.ttf',
-                     '/home/hpl1906/Documents/Arabic_word_cloud/Masks/Oum_Kalthoum.png',
-                     '/home/hpl1906/Documents/Arabic_word_cloud/Outputs/')
+                     'Arabic_word_cloud/Masks/Oum_Kalthoum.png',
+                     'Arabic_word_cloud/Outputs/')
 
 
