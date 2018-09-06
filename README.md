@@ -1,5 +1,7 @@
 [![licence](http://img.shields.io/badge/licence-MIT-blue.svg?style=flat)](https://github.com/amueller/word_cloud/blob/master/LICENSE)
 
+![Logo](logo.png)
+
 Arabic words cloud
 ================
 
