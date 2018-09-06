@@ -1,12 +1,12 @@
 [![licence](http://img.shields.io/badge/licence-MIT-blue.svg?style=flat)](https://github.com/amueller/word_cloud/blob/master/LICENSE)
 
-![Logo](logo.png)
-
 Arabic words cloud
 ================
 
-This python simple script generates word cloud from arabic texts. Read more about word [word_cloud](https://github.com/amueller/word_cloud).
+This python simple script generates word cloud from arabic texts. Read more about [word_cloud](https://github.com/amueller/word_cloud).
 To avoid reverted text issue, I used [python-arabic-reshaper](https://github.com//mpcabd/python-arabic-reshaper)
+
+![Logo](logo.png)
 
 ## Required packages
 
