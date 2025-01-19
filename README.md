@@ -3,27 +3,107 @@
 Arabic words cloud
 ================
 
-This python simple script generates word cloud from arabic texts. Read more about [word_cloud](https://github.com/amueller/word_cloud).
-To avoid reverted text issue, I used [python-arabic-reshaper](https://github.com//mpcabd/python-arabic-reshaper)
+This project provides a Python-based solution for generating word clouds from Arabic text using custom fonts, mask images, and an extensive set of options for customization and export formats. Read more about [word_cloud](https://github.com/amueller/word_cloud).
 
 ![Logo](logo.png)
 
-## Required packages
+## Features
 
-Use pip to install :
+Generate word clouds from Arabic text.
 
-* numpy
-* pandas
-* matplotlib
-* pillow
-* python-bidi
-* wordcloud
+Support for removing Arabic diacritics.
 
-## Tested fonts
-Install the KacstOne fonts :
+Customizable parameters for word cloud generation, including:
+
+* Background color.
+
+* Contour color.
+
+* Colormap for colors.
+
+* Overlay options for combining the word cloud with mask images using various blend modes (e.g., Difference, Add, Multiply).
+
+* Export options for PNG, SVG, and PDF formats.
+
+## Working Directory Structure
+
+The input directory should contain the following subdirectories:
+
+`fonts` : Contains font files (e.g., .ttf) used for rendering Arabic text.
+
+`Masks`: Contains mask images (e.g., .png) used to shape the word clouds.
+
+`Texts`: Contains input text files (e.g., .txt) for generating word clouds.
+
+`Outputs`: Destination for the generated word clouds.
+
+Additionally, a `stopwords.txt` file can be included in the input directory for filtering out common stopwords.
+
+## Installation
+
+Clone the repository or download the script.
+
+Install the required Python libraries:
 ```
-apt install fonts-kacst
+pip install wordcloud matplotlib pillow numpy
 ```
+
+
+## Usage
+
+### Initialization
+
+Create an instance of the ArabicWordCloud class:
+
+```Python
+from your_script_name import ArabicWordCloud
+
+wc = ArabicWordCloud(input_dir="path_to_input_directory")
+```
+
+### Generate the word cloud 
+
+Use the generate_word_cloud method to generate and export word clouds:
+```Python
+wc.generate_word_cloud(
+    text_file="example_text.txt",
+    font_file="example_font.ttf",
+    mask_file="example_mask.png",
+    overlay_alpha=0.6,
+    overlay_mode="Difference",
+    blur_radius=1,
+    mask_opacity=0.2,
+    background_color="black",
+    contour_color=None,
+    color_palette="viridis",
+    export_format="png"
+)
+```
+
+### Parameters
+
+`text_file`: Input text file located in the Texts directory.
+
+`font_file`: Font file located in the Fonts directory.
+
+`mask_file`: Mask image file located in the Masks directory.
+
+`overlay_alpha`: Alpha value for overlaying the mask (default: 0.6).
+
+`overlay_mode`: Blend mode for overlaying the mask on the word cloud (None by default; options include Difference, Add, Multiply, etc.).
+
+`blur_radius`: Radius for Gaussian blur applied to the mask (default: 1).
+
+`mask_opacity`: Opacity for the mask overlay (default: 0.2).
+
+`background_color`: Background color of the word cloud (default: "black").
+
+`contour_color`: Contour color of the word cloud (default: None).
+
+`color_palette`: Colormap for word cloud colors (default: "viridis").
+
+`export_format`: File format for export ("png", "svg", "pdf"; default: "png").
+
 
 ## Usage examples
 
@@ -44,7 +124,8 @@ apt install fonts-kacst
 ![Jaber](Outputs/Jaber.png)
 
 
-## Known issues
+## Acknowledgment 
 
-* No support for texts with diacritical marks (i.e. العَربيةُ لُغةٌ رائِعةٌ).
-* The common redundant words such as كان في ثم ... (prepositions, coordination etc.) must be cleaned manually.  
+* Thanks to [Waad Alshammari](https://github.com/Waadtss)  for the [Stop words list](https://github.com/Waadtss/AraMed-arabic-stop-words).
+
+
