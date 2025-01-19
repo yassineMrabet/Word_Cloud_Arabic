@@ -107,19 +107,28 @@ wc.generate_word_cloud(
 
 ## Usage examples
 
-* A sample output for [One Thousand and One Nights](https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights) "ألف ليلة وليلة" text (Part I):
+
+* Avicenna's [The Canon of Medicine](https://en.wikipedia.org/wiki/The_Canon_of_Medicine) "القانون في الطب" (extract):
+
+![1001_nights](Outputs/Avicenna_Canon_of_Medicine.png)
+
+* [One Thousand and One Nights](https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights) "ألف ليلة وليلة" (Part I):
 
 ![1001_nights](Outputs/1001_nights.png)
 
-* A sample output for [Hayy ibn Yaqdhan](https://en.wikipedia.org/wiki/Hayy_ibn_Yaqdhan) "حي بن يقضان" novel :
+* Ibn Tufail's [Hayy ibn Yaqdhan](https://en.wikipedia.org/wiki/Hayy_ibn_Yaqdhan) "حي بن يقضان" novel :
 
 ![Ibn-yakdhan](Outputs/Ibn-yakdhan.png)
 
-* A sample output for [Al-Atlal](https://en.wikipedia.org/wiki/Al-Atlal) "الأصلال" a famous classical poem singed by Oum Kalthoum :
+* [Ahmed Shawqi](https://en.wikipedia.org/wiki/Ahmed_Shawqi) "أحمد شوقي" poems extracts  :
 
-![Al-Atlal](Outputs/Al-Atlal.png)
+![Ibn-yakdhan](Outputs/Ahmed_Shawqi_selected_poems_blended.png)
 
-* A sample output for [Geber](https://en.wikipedia.org/wiki/Jabir_ibn_Hayyan) Alchemical text :
+* [Al-Atlal](https://en.wikipedia.org/wiki/Al-Atlal) "الأطلال" a famous classical poem singed by Oum Kalthoum :
+
+![Al-Atlal](Outputs/Al-Atlal_blended.png)
+
+* [Geber](https://en.wikipedia.org/wiki/Jabir_ibn_Hayyan) Alchemical text :
 
 ![Jaber](Outputs/Jaber.png)
 
