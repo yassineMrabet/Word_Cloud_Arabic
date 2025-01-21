@@ -124,6 +124,10 @@ wc.generate_word_cloud(
 
 ![Ibn-yakdhan](Outputs/Ahmed_Shawqi_selected_poems_blended.png)
 
+* [Imru'_al-Qays](https://en.wikipedia.org/wiki/Imru%27_al-Qais) "امرأ القيس" poems extracts  :
+
+![Ibn-yakdhan](Outputs/Imrual-Qais_blended.png)
+
 * [Al-Atlal](https://en.wikipedia.org/wiki/Al-Atlal) "الأطلال" a famous classical poem singed by Oum Kalthoum :
 
 ![Al-Atlal](Outputs/Al-Atlal_blended.png)
