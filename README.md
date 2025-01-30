@@ -106,7 +106,9 @@ wc.generate_word_cloud(
 
 
 ## Usage examples
+* Ibn Khaldun's [Muqaddimah](https://en.wikipedia.org/wiki/Muqaddimah) "المقدمة" (first part):
 
+![1001_nights](ibn_khaldoun_blended.png)
 
 * Avicenna's [The Canon of Medicine](https://en.wikipedia.org/wiki/The_Canon_of_Medicine) "القانون في الطب" (extract):
 
